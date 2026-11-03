@@ -1,6 +1,5 @@
-# Isfahan Auto Flow
 
-**Isfahan Auto Flow** is a powerful Chrome extension designed to automate video creation workflows on Google's Flow AI (Veo). It helps users streamline bulk prompt processing, manage queues, and auto-download generated videos.
+is a powerful Chrome extension designed to automate video creation workflows on Google's Flow AI (Veo). It helps users streamline bulk prompt processing, manage queues, and auto-download generated videos.
 
 ## Features
 
@@ -27,10 +26,3 @@
 6.  Click **Add to Queue**.
 7.  Click **Start Queue** and let the automation handle the rest!
 
-## Credits
-
-**Developed by [Shahzaib Anwar](https://github.com/shahzaibanwar)**
-
-If you find this tool helpful, consider supporting the development!
-
-<a href="https://buymeacoffee.com/zabianwar2f" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
