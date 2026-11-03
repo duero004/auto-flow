@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Isfahan Auto Flow Launcher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="gateway.css">
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="lang-switch">
+      <span class="material-symbols-outlined">language</span>
+      <select id="languageSelector">
+        <option value="en">English</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="hi">हिन्दी (India)</option>
+        <option value="th">ไทย (Thailand)</option>
+        <option value="ur">اردو (Pakistan)</option>
+        <option value="bn">বাংলা (Bangladesh)</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <h1>Isfahan Auto Flow</h1>
+      <p data-lang-key="subtitle">Automated Task Manager for Flow AI (Veo)</p>
+    </div>
+
+    <div class="versions">
+      <div class="version-card classic" id="btn-classic">
+        <div class="badge-classic" data-lang-key="badge_classic">EXTENSION</div>
+        <div class="icon-area">
+          <span class="material-symbols-outlined">extension</span>
+        </div>
+        <div class="info">
+          <h3 data-lang-key="classic_title">Version 8.2.2 (Extension)</h3>
+          <p data-lang-key="classic_desc">
+            Phiên bản tiện ích mở rộng quen thuộc. Chạy trực tiếp trên trình duyệt Chrome.
+          </p>
+        </div>
+        <span class="material-symbols-outlined arrow">chevron_right</span>
+      </div>
+
+      <div class="version-card new" id="btn-glabs">
+        <div class="badge" data-lang-key="badge_recommended">ABOUT ME</div>
+        <div class="icon-area">
+          <span class="material-symbols-outlined">person</span>
+        </div>
+        <div class="info">
+          <h3 data-lang-key="glabs_title">About Me</h3>
+          <p data-lang-key="glabs_desc">
+            Check out my GitHub profile for more projects and updates.
+          </p>
+        </div>
+        <span class="material-symbols-outlined arrow">open_in_new</span>
+      </div>
+    </div>
+
+    <div class="quick-links">
+      <a href="https://github.com/ShahzaibAnwar/Isfahan-auto-flow" target="_blank" class="link-item">
+        <span class="material-symbols-outlined">menu_book</span> <span data-lang-key="link_guide">Hướng dẫn</span>
+      </a>
+      <a href="https://buymeacoffee.com/zabianwar2f" class="link-item" style="color: #fdd663;">
+        <span class="material-symbols-outlined">coffee</span> <span data-lang-key="link_donate">Shahzaib Anwar</span>
+      </a>
+    </div>
+
+    <div class="footer">
+      Isfahan Auto Flow
+    </div>
+  </div>
+  <script src="gateway.js"></script>
+</body>
+
+</html>
